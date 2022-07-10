@@ -1,5 +1,6 @@
 public class PhraseOMatic {
 	public static void main(String[] args) {
+		
 		// make three sets of words to choose from. Add you own!
 		String[] wordListOne = {"24/7","multi-Tier","30,000 foot","B-to-B","win-win","front-end", "web-based","pervasive", "smart", "six-hsigma","critical-path", "dynamic"};
 		String[] wordListTwo = {"empowered", "sticky", "value-added", "oriented", "centric", "distributed", "clustered", "branded","outside-the-box", "positioned", "networked", "focused", "leveraged", "aligned", "targeted", "shared", "cooperative", "accelerated"};
@@ -16,7 +17,7 @@ public class PhraseOMatic {
 		int rand3 = (int) (Math.random() * threeLength);
 
 		// now build a phrase
-		String phrase = wordListOne[rand1] + " " + wordListThree[rand2] + " " + wordListThree[rand3];
+		String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
 
 		// print out the phrase
 		System.out.println("What we need is a " + phrase);
