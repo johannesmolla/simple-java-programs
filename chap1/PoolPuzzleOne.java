@@ -1,3 +1,5 @@
+package chap1;
+
 // unsolved
 class PoolPuzzleOne {
 	public static void main(String[] args) {
