@@ -1,5 +1,3 @@
-package chap2;
-
 class DogTestDrive {
     public static void main(String[] args) {
         Dog d = new Dog();

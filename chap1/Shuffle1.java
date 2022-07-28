@@ -1,5 +1,3 @@
-package chap1;
-
 class Shuffle1 {
 	public static void main(String[] args) {
 
